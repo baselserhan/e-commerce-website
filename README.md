@@ -1,36 +1,138 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Luxura Store
+
+Luxura Store is a modern e-commerce storefront built with Next.js, TypeScript, and CSS Modules. The project delivers a premium shopping experience with a refined user interface, product-focused layouts, and core storefront flows such as browsing, cart management, authentication, and checkout navigation.
+
+Designed with a luxury lifestyle brand aesthetic, Luxura combines clean design principles with a scalable front-end architecture to showcase a realistic and polished online retail experience.
+
+## Overview
+
+This project simulates a high-end online shopping platform with:
+- a premium landing page
+- featured product collections
+- category-based browsing
+- shopping cart interactions
+- login and registration flows
+- checkout and contact experiences
+- admin and dashboard interfaces
+
+## Features
+
+- Responsive storefront with premium hero section
+- Product catalog and featured collection layout
+- Dynamic product cards with pricing and category metadata
+- Interactive shopping cart drawer
+- Multi-page ecommerce navigation
+- Authentication pages for sign-in and registration
+- Checkout flow and order journey
+- About, contact, dashboard, and admin sections
+- Modern Next.js App Router architecture
+- TypeScript-based frontend development
+
+## Tech Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- CSS Modules
+- ESLint
+- Node.js
+
+## Project Structure
+
+```bash
+e-commerce-website/
+├── public/
+├── src/
+│   ├── app/
+│   │   ├── about/
+│   │   ├── admin/
+│   │   ├── checkout/
+│   │   ├── contact/
+│   │   ├── dashboard/
+│   │   ├── login/
+│   │   ├── product/
+│   │   ├── products/
+│   │   ├── register/
+│   │   ├── globals.css
+│   │   ├── layout.tsx
+│   │   ├── page.tsx
+│   │   └── page.module.css
+│   ├── components/
+│   │   ├── AuthGuard.tsx
+│   │   ├── CartDrawer.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── ProductCard.tsx
+│   │   └── *.module.css
+│   └── data/
+│       └── products.ts
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── tsconfig.json
+├── README.md
+└── package-lock.json
+```
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+Make sure you have the following installed:
+- Node.js 18+
+- npm
+
+### Installation
+
+```bash
+git clone https://github.com/baselserhan/e-commerce-website.git
+cd e-commerce-website
+npm install
+```
+
+### Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Available Scripts
 
-## Learn More
+```bash
+npm run dev     # Start the development server
+npm run build   # Build the application for production
+npm run start   # Start the production server
+npm run lint    # Run ESLint checks
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Design and UX Goals
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project is designed to reflect a premium digital retail brand through:
+- elegant typography and spacing
+- strong visual hierarchy
+- minimalist product-focused layouts
+- high-contrast call-to-action elements
+- immersive marketing sections
+- consistent UI patterns across storefront pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Contributing
 
-## Deploy on Vercel
+Contributions are welcome. If you would like to improve the project, please:
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Open a pull request
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contact
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+For questions, collaboration, or support, feel free to reach out through the repository or the contact details provided in the project.
+
+## License
+
+This project does not currently include a license file. Please review repository ownership and licensing terms before commercial or public reuse.
