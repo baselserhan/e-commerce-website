@@ -77,8 +77,6 @@ e-commerce-website/
 └── package-lock.json
 ```
 
-<img src="/Screenshot.png" />
-
 ## Getting Started
 
 ### Prerequisites
