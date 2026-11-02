@@ -4,9 +4,12 @@ Luxura Store is a modern e-commerce storefront built with Next.js, TypeScript, a
 
 Designed with a luxury lifestyle brand aesthetic, Luxura combines clean design principles with a scalable front-end architecture to showcase a realistic and polished online retail experience.
 
+<img src="Screenshot.png" />
+
 ## Overview
 
 This project simulates a high-end online shopping platform with:
+
 - a premium landing page
 - featured product collections
 - category-based browsing
@@ -81,6 +84,7 @@ e-commerce-website/
 ### Prerequisites
 
 Make sure you have the following installed:
+
 - Node.js 18+
 - npm
 
@@ -116,6 +120,7 @@ npm run lint    # Run ESLint checks
 ## Design and UX Goals
 
 The project is designed to reflect a premium digital retail brand through:
+
 - elegant typography and spacing
 - strong visual hierarchy
 - minimalist product-focused layouts
@@ -126,6 +131,7 @@ The project is designed to reflect a premium digital retail brand through:
 ## Contributing
 
 Contributions are welcome. If you would like to improve the project, please:
+
 1. Fork the repository
 2. Create a feature branch
 3. Commit your changes
